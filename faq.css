@@ -628,19 +628,70 @@
 .csr26-item-1 {
   display: flex;
   flex-direction: column;
+  gap: 10px;
 }
 
-.csr26-stack-2{
-  display: flex;
-
+.csr26-item-1 p {
+  border: 1px solid #36ccc2;
+  border-radius: 10px;
+  padding: 0 20px;
+  background: #36ccc208;
 }
 
-.csr26-column-1-stack-1{
+.csr26-stack-2 {
   display: flex;
+  gap: 50px;
+}
+
+.csr26-column-1-stack-1 {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.csr26-item-3 {
+  display: flex;
+  flex-direction: column;
 }
 
 /* update faq-copy css */
 
+#certified {
+  padding: 0px 0;
+}
+
 #scan {
+  padding: 150px 0;
+}
+
+#funtional {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  position: relative;
+}
+
+#funtional::before {
+    padding-top: 80px;
+    height: 500px;
+    width: 100%;
+    content: '';
+    position: absolute;
+    left: -45%;
+    bottom: 0%;
+    background: url('/assets/image/Background-element.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    z-index: 0;
+}
+
+
+
+#csr26_seen {
+  padding: 0;
+}
+
+#faq {
   padding-bottom: 150px;
 }
