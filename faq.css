@@ -661,6 +661,10 @@
   padding: 0px 0;
 }
 
+#demo {
+  margin: 70px 0;
+}
+
 #scan {
   padding: 150px 0;
 }
@@ -672,21 +676,19 @@
 }
 
 #funtional::before {
-    padding-top: 80px;
-    height: 500px;
-    width: 100%;
-    content: '';
-    position: absolute;
-    left: -45%;
-    bottom: 0%;
-    background: url('/assets/image/Background-element.png');
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: contain;
-    z-index: 0;
+  padding-top: 80px;
+  height: 500px;
+  width: 100%;
+  content: "";
+  position: absolute;
+  left: -45%;
+  bottom: 0%;
+  background: url("/assets/image/Background-element.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+  z-index: 0;
 }
-
-
 
 #csr26_seen {
   padding: 0;
